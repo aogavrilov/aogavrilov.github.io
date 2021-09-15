@@ -1,0 +1,20 @@
+
+#nameInNav {
+    font-size: 30px;
+    margin: 0;
+    color: orange;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    padding: 20px 0;
+
+}
+nav {
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+
+}
+html {
+    scroll-behavior: smooth;
+}
