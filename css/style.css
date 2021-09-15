@@ -1,20 +1,45 @@
 
 #nameInNav {
-    font-size: 30px;
-    margin: 0;
+    font-size: 25px;
+    padding: 0;
     color: orange;
     font-family: 'Libre Baskerville', serif;
     font-weight: bold;
-    padding: 20px 0;
-
+    margin: -5px;
+    text-align: center;
 }
 nav {
+    overflow:  hidden;
+    position:fixed;
+    top: 0;
+    left: 0;
     font-size: 20px;
-    margin: 0;
     font-family: 'Abel', sans-serif;
     text-align: center;
+    background-color: slategrey;
+    width: 100%;
+    vertical-align: middle;
+
+
 
 }
 html {
     scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none; /*убираем маркеры списка*/
+
+}
+a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    padding:20px; /*добавляем отступ*/
+    color: white;
+
+}
+a:hover {
+    color: orange;
+}
+li {
+    float:left; /*Размещаем список горизонтально для реализации меню*/
 }
