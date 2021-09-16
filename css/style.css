@@ -1,27 +1,24 @@
 
 #nameInNav {
     font-size: 25px;
-    padding: 0;
     color: orange;
-    font-family: 'Libre Baskerville', serif;
     font-weight: bold;
     margin: -5px;
     text-align: center;
+    padding: 0;
 }
 nav {
-    overflow:  hidden;
-    position:fixed;
+    overflow: hidden;
+    position: fixed;
     top: 0;
     left: 0;
-    font-size: 20px;
-    font-family: 'Abel', sans-serif;
-    text-align: center;
-    background-color: slategrey;
+    background-color: #1b2024;
     width: 100%;
-    vertical-align: middle;
+    height: 7%;
+    text-align: center;
 
-
-
+}
+li{
 }
 html {
     scroll-behavior: smooth;
@@ -31,10 +28,17 @@ ul {
     list-style: none; /*убираем маркеры списка*/
 
 }
-a {
+a{
     text-decoration: none; /*убираем подчеркивание текста ссылок*/
-    padding:20px; /*добавляем отступ*/
     color: white;
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 20px;
+}
+.navLink {
+    position: relative;
+    left: 45%;
+
 
 }
 a:hover {
