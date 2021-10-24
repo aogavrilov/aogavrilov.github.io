@@ -1,4 +1,28 @@
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+section{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    height: 100vh;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    max-width: 1530px;
+    width: 100%;
+    margin: auto;
+}
+
+.content__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax( 290px,1fr));
+    grid-gap: 20px;
+}
 #nameInNav {
     font-size: 25px;
     color: orange;
