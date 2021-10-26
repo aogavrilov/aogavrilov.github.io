@@ -51,6 +51,10 @@ h1 {
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
+.MyPresentingName{
+    position: relative;
+}
+
 
 .grid-container {
     display: grid;
