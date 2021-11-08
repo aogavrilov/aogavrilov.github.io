@@ -25,6 +25,14 @@ h1 {
     width: 100%;
 
 }
+.Education{
+    margin-left: 4mm;
+    letter-spacing: 2mm;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
 
 #skills{
     background: snow;
