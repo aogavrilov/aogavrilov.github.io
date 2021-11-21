@@ -14,6 +14,13 @@ h1 {
     border: 3px solid green; /* Параметры рамки */
     box-shadow: 0 0 7px #666; /* Параметры тени */
 }
+/*
+.myProjectsTitle{
+    font-weight: bold;
+    color: black;
+    font-size: 32px;
+}
+*/
 
 .contentPresenting{
     font-family: 'Montserrat', sans-serif;
@@ -126,56 +133,13 @@ h1{
 }
 section{
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    height: 100vh;
 }
-.content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/*
-.container {
-    max-width: 1530px;
-    width: 100%;
-    margin: auto;
-}
-
-.content__container {
-    display: grid;
-    '''grid-template-columns: repeat(auto-fit, minmax( 290px,1fr));
-    '''grid-gap: 20px;
-}
-
-.content__about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-}
-
-.content__slider {
-    display: flex;
-    flex-direction: column;
-}
-
-.content__title {
-    font-size: 48px;
-    line-height: 1.1;
-    margin-bottom: 20px;
-}
-
-.content__subtitle {
-    font-size: 24px;
-}
-
-.content__li {
-    font-size: 22px;
-    line-height: 1.1;
-}
-
-.content__description {
-    font-size: 20px;
-}*/
+/*.content {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    flex-direction: column;*/
+/*}*/
 
 #nameInNav {
     display: flex;
