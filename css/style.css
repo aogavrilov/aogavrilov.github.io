@@ -22,7 +22,7 @@ h1 {
 }
 */
 
-#presenting{
+#presenting {
     background: url("/imgs/first_fon_1/white_mountines.jpg");
     background-size: cover;
     height: 100vh;
@@ -58,7 +58,10 @@ h1 {
     z-index: -100;
     max-width:100%;
 }
-.imgmyPresentingFace{
+.MyPresentingName {
+
+}
+.imgmyPresentingFace {
     border: 9px solid whitesmoke; /* Параметры рамки */
     max-width: 70%;
     border-radius: 50%;
@@ -72,6 +75,16 @@ h1 {
 
     position: relative;
 }
+.MyPresentingName {
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 45px;
+    position: relative;
+    top: 20%;
+
+}
+
 
 
 
@@ -125,7 +138,7 @@ h1 {
     align-content: center;
 
 }
-
+/*
 h1{
     display: flex;
     justify-content: center;
@@ -136,7 +149,7 @@ h1{
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
-}
+}*/
 section{
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
