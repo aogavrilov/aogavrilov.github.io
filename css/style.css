@@ -196,16 +196,12 @@ section{
     color: orange;
     font-weight: bold;
 }
-li{
-}
+
 html {
     scroll-behavior: smooth;
 }
 
-ul {
-    list-style: none; /*убираем маркеры списка*/
 
-}
 a{
     text-decoration: none; /*убираем подчеркивание текста ссылок*/
     color: white;
@@ -216,9 +212,7 @@ a{
 a:hover {
     color: orange;
 }
-li {
-    float:left; /*Размещаем список горизонтально для реализации меню*/
-}
+
 .header {
     height: 100px;
 }
