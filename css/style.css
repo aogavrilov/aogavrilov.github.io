@@ -1,19 +1,22 @@
 
-body{
+body {
     margin: 0;
     border: 0;
     padding: 0;
 }
+
 h1 {
     font-weight: bold;
     color: #fff;
     font-size: 32px;
 }
+
 .round {
     border-radius: 100px; /* Радиус скругления */
     border: 3px solid green; /* Параметры рамки */
     box-shadow: 0 0 7px #666; /* Параметры тени */
 }
+
 /*
 .myProjectsTitle{
     font-weight: bold;
@@ -22,22 +25,31 @@ h1 {
 }
 */
 
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+}
+
 #presenting {
     background: url("/imgs/first_fon_1/white_mountines.jpg");
     background-size: cover;
     height: 100vh;
 }
-.contentPresenting{
+
+.contentPresenting {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     height: 100vh;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     width: 100%;
 
 }
-.Education{
+
+.Education {
     margin-left: 4mm;
     letter-spacing: 2mm;
     font-family: 'Montserrat', sans-serif;
@@ -46,9 +58,9 @@ h1 {
 }
 
 
-#skills{
+#skills {
     background: snow;
-    box-shadow: 0 0 40px rgba(0,0,0,0.5);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
 }
 
 /*todo сделать анимацию спускания белого текста вниз и
@@ -56,8 +68,9 @@ h1 {
 
 .imgPresenting {
     z-index: -100;
-    max-width:100%;
+    max-width: 100%;
 }
+
 .MyPresentingName {
 
 }
@@ -94,6 +107,7 @@ h1 {
 
     position: relative;
 }
+
 .MyPresentingName {
     font-size: 44px;
     font-weight: bold;
@@ -105,15 +119,13 @@ h1 {
 }
 
 
-
-
-
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: azure;
     padding: 1px;
 }
+
 .grid-area {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
@@ -123,6 +135,7 @@ h1 {
     grid-column-end: 4;
     text-align: center;
 }
+
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
@@ -151,7 +164,7 @@ h1 {
 /*    max-width: 100%;*/
 /*}*/
 
-.image_head{
+.image_head {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -161,6 +174,7 @@ h1 {
 section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 .content {
     display: flex;
     justify-content: center;
@@ -229,13 +243,14 @@ html {
 }
 
 
-a{
+a {
     text-decoration: none; /*убираем подчеркивание текста ссылок*/
     color: white;
     text-align: center;
     padding: 20px 30px;
     font-size: 20px;
 }
+
 a:hover {
     color: orange;
 }
@@ -243,7 +258,6 @@ a:hover {
 .header {
     height: 100px;
 }
-
 
 
 @media screen and (max-width: 978px) {
