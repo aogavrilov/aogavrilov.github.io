@@ -9,12 +9,28 @@ h1 {
     font-weight: bold;
     color: #fff;
     font-size: 32px;
-}
-
+}/*
+.title li {
+    vertical-align: top;
+    display: inline-block;
+    width: 32.899%;
+}*/
 .round {
     border-radius: 100px; /* Радиус скругления */
     border: 3px solid green; /* Параметры рамки */
     box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+h3 {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 45px;
+    position: relative;
+}
+h4 {
+    font-size: 14px;
+    text-align: left;
+    position: relative;
 }
 
 /*
