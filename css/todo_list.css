@@ -1,0 +1,91 @@
+#project {
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.input {
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    padding: 0 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.52);
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.52);
+    text-align: center;
+}
+
+.tasks_wrapper {
+    display: flex;
+}
+
+.tasks {
+    margin: 10px 5px;
+    width: 30vw;
+    height: 50px;
+    background-color: #323232;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.52);
+}
+
+.task{
+    display: flex;
+    margin: 10px 10px 10px 0;
+    width: 30vw;
+    height: 50px;
+    background-color: #323232;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.52);
+}
+
+.checkbox {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+}
+
+.text {
+    width: 90%;
+}
+
+.delete {
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.52);
+    text-align: center;
+}
+
+.delete:hover{
+    background-color: #ff7b7b;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.52);
+    text-align: center;
+}
+
+.reverse {
+    text-decoration: line-through;
+    color: #666666;
+} 

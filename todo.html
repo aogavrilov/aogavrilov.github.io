@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="scripts/nav.js"></script>
+
+
+    <meta charset="UTF-8">
+    <title>aogavrilov</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/job_timeline.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/todo_list.css">
+
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <meta name="keywords" content="aogavrilov, Alexey Gavrilov, Gavrilov Alexey">
+    <meta name="description" content="Alexey Gavrilov's personal website">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+
+
+</head>
+<body>
+<header>
+    <nav>
+        <div class="nav-list">
+            <li class="nav-item" id="nameInNav">Alexey Gavrilov</li>
+            <li class="nav-item">
+                <a href="project1.html">Project1</a></li>
+            </li>
+            <li class="nav-item">
+                <a href="project2.html">Project2</a></li>
+            </li>
+            <li class="nav-item">
+                <a href="project3.html">Project3</a></li>
+            </li>
+            <li class="nav-item">
+                <a href="index.html#projects">Назад</a></li>
+            </li>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="content" id="project">
+        <h1>Todo List</h1>
+        <form onsubmit="addTask('','','', true);return false">
+            <input class="input" placeholder="What needs to be done?">
+            <select class="button">
+                <option>ML</option>
+                <option>CV</option>
+                <option>DA</option>
+            </select>
+            <button type="submit" class="button">Add</button>
+        </form>
+        <div class="tasks_wrapper">
+            <div class="tasks">Machine Learning
+                <template>
+                    <div class="task">
+                        <input class="checkbox" type="checkbox" onclick="reverse(this)">
+                        <div class="text"></div>
+                        <button class="delete" onclick="deleteTask(this)">Удалить</button>
+                    </div>
+                </template>
+            </div>
+            <div class="tasks">Computer Vision
+            </div>
+            <div class="tasks">Data Analytics/Math
+            </div>
+        </div>
+        <script src="scripts/todo_list.js"></script>
+    </section>
+</main>
+<footer>
+    <div class="load-time">
+        <h7><span id="load-time"></span></h7>
+    </div>
+</footer>
+</body>
+</html>
