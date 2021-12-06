@@ -50,7 +50,7 @@ function addTask(value, type, checked, is_new) {
             tasks.childNodes[1 + type * 2].appendChild(template);
             task.value = "";
         }
-        if (is_new) {
+        if (is_new && value !== "") {
             tasks.push({'value': value, 'type': type, 'checked': checked});
             localStorage.setItem("tasks", JSON.stringify(tasks));
         }

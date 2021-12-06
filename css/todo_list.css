@@ -43,7 +43,7 @@
     display: flex;
     margin: 10px 10px 10px 0;
     width: 30vw;
-    height: 50px;
+    min-height: 50px;
     background-color: #323232;
     color: white;
     text-align: center;
@@ -61,7 +61,10 @@
 }
 
 .text {
+    margin: 15px 0 15px 0;
     width: 90%;
+    word-break: break-all;
+    line-height: 1em;
 }
 
 .delete {
@@ -88,4 +91,4 @@
 .reverse {
     text-decoration: line-through;
     color: #666666;
-} 
+}
