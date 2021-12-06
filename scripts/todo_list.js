@@ -1,4 +1,3 @@
-let height = 0;
 
 function addTask(value, type, checked) {
     const task = document.querySelector("form input");
@@ -24,10 +23,6 @@ function addTask(value, type, checked) {
     }
     tasks.childNodes[1 + type * 2].appendChild(template);
     task.value = "";
-
-    if (height > 500) height += 50;
-    document.getElementById('project').style.height = height + 'px';
-
 }
 
 function deleteTask(task) {

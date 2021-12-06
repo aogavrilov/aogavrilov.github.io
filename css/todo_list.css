@@ -1,7 +1,7 @@
 #project {
     display: flex;
     justify-content: flex-start;
-    height: 100vh;
+    height: 0;
 }
 
 .input {
@@ -26,17 +26,8 @@
     display: flex;
 }
 
-.tasks {
-    margin: 10px 5px;
-    width: 30vw;
-    height: 50px;
-    background-color: #323232;
-    color: white;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 50px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.52);
+.top {
+    justify-content: center;
 }
 
 .task{
