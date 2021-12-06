@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <script src="scripts/nav.js"></script>
-
+    <script src="scripts/api.js"></script>
 
     <meta charset="UTF-8">
     <title>aogavrilov</title>
@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/job_timeline.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/todo_list.css">
+    <link rel="stylesheet" href="css/preloader.css">
 
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -48,7 +49,7 @@
 <main>
     <section class="content" id="project">
         <h1>Todo List</h1>
-        <form onsubmit="addTask('','','', true);return false">
+        <form onsubmit="addRecord();return false">
             <input class="input" placeholder="What needs to be done?">
             <select class="button">
                 <option>ML</option>
@@ -57,6 +58,12 @@
             </select>
             <button type="submit" class="button">Add</button>
         </form>
+        <div class="preloader empty">
+            <img src="imgs/preloader.gif">
+        </div>
+        <div class="error empty">
+            <a>Что-то пошло не так</a>
+        </div>
         <div class="tasks_wrapper">
             <div class="tasks">Machine Learning
                 <template>
