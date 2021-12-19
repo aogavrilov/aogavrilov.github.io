@@ -250,4 +250,54 @@ a:hover {
     }
 }
 
+.mfp-arrow-right:after {
+    border-left: 17px solid #FFA500 !important;
+}
 
+.mfp-arrow-right:before {
+    border-left: 27px solid #1b2024 !important;
+}
+
+.mfp-arrow-left:after {
+    border-right: 17px solid #FFA500 !important;
+}
+
+.mfp-arrow-left:before {
+    border-right: 27px solid #1b2024 !important;
+}
+
+img.mfp-img {
+    padding: 0 0 40px !important;
+}
+
+.mfp-close {
+    padding-right: 15px !important;
+}
+
+.mfp-content {
+    margin-top: 80px !important;
+}
+.mfp-fade.mfp-bg {
+    transition: all 0.3s ease-out;
+}
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8;
+}
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0;
+}
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+    transition: all 0.3s ease-out;
+}
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+    opacity: 1;
+}
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+    opacity: 0;
+}
